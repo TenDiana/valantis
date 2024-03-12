@@ -9,5 +9,5 @@ const day = currentDate.getUTCDate();
 const timestamp = `${year}${month < 10 ? '0' : ''}${month}${day < 10 ? '0' : ''}${day}`;
 
 
-export const BASE_URL = 'http://api.valantis.store:40000/';
+export const BASE_URL = 'https://api.valantis.store:41000/';
 export const xAuth = md5(`Valantis_${timestamp}`);
